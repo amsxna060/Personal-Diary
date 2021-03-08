@@ -1,4 +1,7 @@
 
+
+
+
 # Personal-Diary
 It is a Mobile Application (Personal Diary with passcode lock) for writing our thoughts and things we want to remember like birthdays and bills payment etc.It have intractive and User friendly UI. 
 ## OverView
@@ -11,7 +14,7 @@ It is a Mobile Application (Personal Diary with passcode lock) for writing our t
 - Status Emoji for expressing Happiness and Sadness.
 
 ## Demo
-![vedio](https://user-images.githubusercontent.com/61556206/110300976-9492fd00-801d-11eb-83b5-29bac00aa4a3.gif)
+[![vedio](https://user-images.githubusercontent.com/61556206/110300976-9492fd00-801d-11eb-83b5-29bac00aa4a3.gif)](https://user-images.githubusercontent.com/61556206/110301421-11be7200-801e-11eb-9c3e-ef0e3edd9f12.mp4)
 ## ScreenShots
 <table>
   <tr>
