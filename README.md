@@ -1,4 +1,4 @@
-# Personal Diary <img src = "https://user-images.githubusercontent.com/61556206/110303786-d1142800-8020-11eb-9122-04d355f0991b.png" width = "60" height = "60">
+# Personal Diary <img src = "https://user-images.githubusercontent.com/61556206/110303786-d1142800-8020-11eb-9122-04d355f0991b.png" width = "35" height = "35">
 It is a Mobile Application (Personal Diary with passcode lock) for writing our thoughts and things we want to remember like birthdays and bills payment etc.It have intractive and User friendly UI. 
 ## Overview
 - Have Passcode Security 
