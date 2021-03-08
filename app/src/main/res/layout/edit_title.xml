@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="#FFFFFF"
+        android:background="#009688"/>
+    <ImageButton
+        android:id="@+id/edit_title_okay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/ic_send_black_24dp"></ImageButton>
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp"
+        android:fontFamily="serif"
+        android:hint="Edit Title"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toLeftOf="@+id/edit_title_okay"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

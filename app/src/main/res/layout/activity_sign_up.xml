@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070707"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="Security Questions"
+        android:textColor="#FFFFFF"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:fontFamily="serif"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:text="Any One Or More than One"
+        android:textColor="#FFFFFF" />
+    <ScrollView
+        android:id="@+id/tempscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="65dp"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/love"/>
+            <EditText
+                android:id="@+id/Nicknamelover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:background="@drawable/border"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:hint=" Nick Name of your Love ?"
+                android:textColor="#070707"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#B3BCBB"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/names"/>
+            <EditText
+                android:id="@+id/YourFavName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="true"
+                android:imeOptions="actionNext"
+                android:fontFamily="serif"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:hint=" If You Have Chanced to Change your \n Name Then What 'll be That Name ?"
+                android:textColor="#070707"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#B3BCBB"
+                android:textSize="15sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/school" />
+
+            <EditText
+                android:id="@+id/firstSchool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="true"
+                android:background="@drawable/border"
+                android:imeOptions="actionDone"
+                android:fontFamily="serif"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:hint=" First School ? "
+                android:textColor="#070707"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#B3BCBB"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/Submit"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:text="Submit"
+        android:fontFamily="serif"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

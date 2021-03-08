@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.amansiol.notes"
+    android:compileSdkVersion="29"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <uses-sdk
+        android:maxSdkVersion="28"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/diaryicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/diaryicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SignUpActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".LoginByEmail"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".About_Me" />
+        <activity
+            android:name=".NewPassCodeActivity"
+            android:theme="@style/AppThemefullScreen"></activity>
+        <activity
+            android:name=".PassCodeActivity"
+            android:theme="@style/AppThemefullScreen"></activity>
+        <activity
+            android:name=".Splash_screen"
+            android:theme="@style/AppThemefullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Help"
+            android:theme="@style/AppThemefullScreen" />
+        <activity
+            android:name=".Edit_message"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".NotesActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

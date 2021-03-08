@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    tools:context=".Help">
+
+   <TextView
+       android:id="@+id/instruct"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:fontFamily="cursive"
+       android:gravity="left"
+       android:padding="10dp"
+       android:textStyle="bold"
+       android:layout_marginStart="10dp"
+       android:text="Instruction : "
+       android:textColor="@color/colorAccent"
+       android:textSize="30sp" />
+   <ListView
+       android:id="@+id/helplist"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="5dp"
+       android:dividerHeight="0dp"
+       android:layout_marginBottom="5dp"
+       android:layout_below="@+id/instruct"
+       android:listSelector="#ffffff"
+       />
+
+
+</RelativeLayout>

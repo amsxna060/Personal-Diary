@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333333"
+    android:padding="5dp"
+    tools:context=".About_Me">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/mypic"
+            android:layout_width="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_height="400dp"
+            android:src="@drawable/aboutme"
+            />
+     <TextView
+         android:id="@+id/about_me"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Hi I, Amol Saxena who is the Developer of this App. I am Currently persuing B.Tech in Computer Science And Engineering,from Lakshmi Narain College of Technology, Bhopal.I built this app Because personally i liked Diary Writing So i thought there may be a
+app in which we can easily writes our thoughts, personal issue, personal thing, and Those thing We want to remember with date we can
+also write our daily expense May be this app is not much great but i 'll make this app good with your reviews and thoughts. This is
+just my small effort to make a app which helps us to take notes and write our Feelings in Free time. As we all know how much Writing our thought
+impact us in very happy way.\nContact me: 7248543060, email me: amolsaxena060@gmail.com\nSo Enjoy..!!\n🙂🙂🙂"
+         android:textColor="#ffffff"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:fontFamily="serif"
+         android:textSize="16sp"
+         android:layout_marginBottom="10dp"
+         android:layout_below="@+id/mypic"
+         android:layout_marginTop="20dp"
+         />
+     <Button
+         android:id="@+id/Returntopass"
+         style="@android:style/Widget.Holo.Button.Borderless"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:background="@drawable/roundbutton"
+         android:text="Go Back to PassCode"
+         android:fontFamily="serif"
+         android:textSize="16sp"
+         android:layout_marginRight="40dp"
+         android:layout_marginLeft="40dp"
+         android:layout_marginBottom="10dp"
+         android:layout_below="@+id/about_me"
+         />
+ </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

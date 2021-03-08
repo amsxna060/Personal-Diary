@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="WDTcolors">#009688</color>
+    <color name="colorTitle">#03DAC5</color>
+    <color name="colorMainbackground">#ffffff</color>
+
+<!--    Dark mode Colors-->
+
+    <color name="DarkmainBG"   >#353535</color>
+    <color name="DarkWDT"      >#02F47E</color>
+    <color name="DarkTitle"    >#989898</color>
+    <color name="DarkFabButton">#02F47E</color>
+    <color name="DarkActBG"    >#353535</color>
+    <color name="DarkActMsg"   >#AAAAAA</color>
+    <color name="DarkActTitle" >#989898</color>
+    <color name="DarkActWDT"   >#02F47E</color>
+
+
+
+
+
+
+
+
+
+
+
+</resources>
