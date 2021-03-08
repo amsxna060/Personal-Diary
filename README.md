@@ -1,7 +1,3 @@
-
-
-
-
 # Personal-Diary
 It is a Mobile Application (Personal Diary with passcode lock) for writing our thoughts and things we want to remember like birthdays and bills payment etc.It have intractive and User friendly UI. 
 ## OverView
@@ -39,6 +35,6 @@ It is a Mobile Application (Personal Diary with passcode lock) for writing our t
   </tr>
  </table>
 
-## Download App
-
+# Download App
+[**Download from here**](https://1drv.ms/u/s!AkXlM134GfrsiUPjgz3K6NkBq1VM?e=znfgHi)
 
