@@ -64,8 +64,8 @@
                 android:hint=" Nick Name of your Love ?"
                 android:textColor="#070707"
                 android:paddingLeft="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:textColorHint="#B3BCBB"
                 android:textSize="20sp" />
             <ImageView
@@ -88,8 +88,8 @@
                 android:textColor="#070707"
                 android:background="@drawable/border"
                 android:paddingLeft="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:textColorHint="#B3BCBB"
                 android:textSize="15sp" />
             <ImageView
@@ -112,8 +112,8 @@
                 android:hint=" First School ? "
                 android:textColor="#070707"
                 android:paddingLeft="20dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:textColorHint="#B3BCBB"
                 android:textSize="20sp" />
         </LinearLayout>

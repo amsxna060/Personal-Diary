@@ -1,90 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="5dp"
-    android:orientation="vertical">
-<android.support.v7.widget.CardView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    app:cardCornerRadius="8dp"
-    android:elevation="5dp"
-    app:cardBackgroundColor="@color/colorMainbackground"
-    android:layout_marginBottom="2dp"
-    android:layout_marginRight="5dp"
-    app:cardElevation="5dp"
-    android:layout_marginTop="2dp"
-    android:layout_marginLeft="5dp"
-    app:cardPreventCornerOverlap="true"
-    android:layout_height="55dp">
-
-    <RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    >
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/smile"
-        android:src="@drawable/ic_sentiment_very_satisfied_black_24dp"
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
-    <TextView
-        android:id="@+id/week"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="mon"
-        android:layout_toRightOf="@+id/smile"
-        android:layout_marginStart="10dp"
-        android:textSize="16sp"
-        android:textColor="@color/WDTcolors"
-        android:textStyle="bold"
-        android:fontFamily="serif"/>
-
-    <TextView
-        android:id="@+id/date"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:fontFamily="serif"
-        android:text="April 22 , 2020"
-        android:textColor="@color/WDTcolors"
-        android:textSize="14sp"
-        android:layout_marginEnd="5dp"
-        android:layout_alignParentEnd="true"
-        android:textStyle="bold" />
-    <TextView
-        android:id="@+id/cardTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/date"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:fontFamily="serif"
-        android:text="12:30 am"
-        android:textAllCaps="true"
-        android:textColor="@color/WDTcolors"
-        android:textSize="14sp"
-        android:textStyle="bold"></TextView>
-    <TextView
-        android:id="@+id/Title"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/week"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="2dp"
-        android:layout_toLeftOf="@+id/cardTime"
-        android:layout_toRightOf="@+id/smile"
-        android:autoSizeTextType="uniform"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="serif"
-        android:text="Start Your Day"
-        android:textColor="@color/colorTitle"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        >
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <ImageView
+                android:id="@+id/smile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_sentiment_very_satisfied_black_24dp" />
 
-</RelativeLayout>
-</android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/smile"
+                android:fontFamily="serif"
+                android:text="mon"
+                android:padding="4dp"
+                android:textColor="@color/WDTcolors"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:text="April 22 , 2020"
+                android:textColor="@color/WDTcolors"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cardTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="serif"
+                android:text="12:30 am"
+                android:textAllCaps="true"
+                android:textColor="@color/WDTcolors"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/week"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toStartOf="@+id/cardTime"
+                android:layout_toEndOf="@+id/smile"
+                android:fontFamily="serif"
+                android:text="Start Your Day"
+                android:textColor="@color/colorTitle"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
 </RelativeLayout>

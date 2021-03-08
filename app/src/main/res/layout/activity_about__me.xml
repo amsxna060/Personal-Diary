@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
  <RelativeLayout
      android:layout_width="match_parent"
-     android:layout_height="match_parent">
+     android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/mypic"
             android:layout_width="wrap_content"
@@ -30,11 +30,7 @@
          android:id="@+id/about_me"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:text="Hi I, Amol Saxena who is the Developer of this App. I am Currently persuing B.Tech in Computer Science And Engineering,from Lakshmi Narain College of Technology, Bhopal.I built this app Because personally i liked Diary Writing So i thought there may be a
-app in which we can easily writes our thoughts, personal issue, personal thing, and Those thing We want to remember with date we can
-also write our daily expense May be this app is not much great but i 'll make this app good with your reviews and thoughts. This is
-just my small effort to make a app which helps us to take notes and write our Feelings in Free time. As we all know how much Writing our thought
-impact us in very happy way.\nContact me: 7248543060, email me: amolsaxena060@gmail.com\nSo Enjoy..!!\n🙂🙂🙂"
+         android:text="@string/aboutme"
          android:textColor="#ffffff"
          android:paddingLeft="10dp"
          android:paddingRight="10dp"
@@ -61,4 +57,4 @@ impact us in very happy way.\nContact me: 7248543060, email me: amolsaxena060@gm
  </RelativeLayout>
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

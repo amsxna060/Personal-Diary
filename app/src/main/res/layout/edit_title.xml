@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="wrap_content"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_marginStart="25dp"
     android:layout_marginEnd="25dp"
@@ -26,7 +28,7 @@
         android:layout_marginTop="5dp"
         android:layout_alignParentEnd="true"
         android:background="@drawable/roundbutton"
-        android:src="@drawable/ic_send_black_24dp"></ImageButton>
+        android:src="@drawable/ic_send_black_24dp"/>
     <EditText
         android:id="@+id/edit_title"
         android:layout_width="match_parent"
@@ -36,7 +38,7 @@
         android:hint="Edit Title"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
-        android:layout_toLeftOf="@+id/edit_title_okay"
+        android:layout_toStartOf="@+id/edit_title_okay"
         android:textSize="22sp" />
 
 
